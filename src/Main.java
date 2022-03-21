@@ -1,22 +1,13 @@
-import javax.xml.parsers.SAXParser;
-
 public class Main {
     public static void main(String[] args) {
 
-        // Объявляете переменные для входных данных и
-        // параметров программы: одну для хранения
-        // стоимости билета, другую для хранения количества
-        // рублей для одной бонусной милли
-
-        int cenaTicket = 30_000;
-        int bonusMila = 20;
+        
+        int cenaTicket = 30_000; // стоимость билета
+        int bonusMila = 20; // количество рублей для одной бонусной мили
 
 
-        // Рассчитываете количество бонусных милль, используя
-        // значения заведённых переменных. Ответ сохраняете в
-        // новую переменную и выводите на экран
-
-        int mila = cenaTicket / bonusMila;
+     
+        int mila = cenaTicket / bonusMila; //расчет количества бонусных миль
         System.out.println(mila);
     }
 
