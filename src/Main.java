@@ -8,7 +8,7 @@ public class Main {
 
      
         int mila = cenaTicket / bonusMila; //расчет количества бонусных миль
-        System.out.println(mila);
+        System.out.println("количество бонусных миль=" + mila);
     }
 
 }
